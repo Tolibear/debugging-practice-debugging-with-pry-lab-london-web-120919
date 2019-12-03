@@ -10,6 +10,7 @@ end
 
 def turtle_traits(turtles)
   turtles.map do |turtle|
-    turtle[:traits]
+    traits_array = []
+    turtle_array << [turtle[:traits]]
   end
 end
